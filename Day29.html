@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+  
+  <script>
+    let x = 5;
+    
+    x = (x++, x = addFive(x));
+    
+    function addFive(num){
+      return num + 5
+    }
+    console.log(x);
+  </script>
+
+</body>
+</html>
